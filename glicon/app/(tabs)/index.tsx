@@ -1,10 +1,24 @@
 import { Fragment } from 'react';
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 export default function App(){
   return(
-    <>
-    <Text>Construindo o app</Text>
-    <Text>    GlicOn   </Text>
-    </>
+    <View style = {{
+      flex: 1,
+      backgroundColor: '#4C33CC',
+      padding: 24
+    }}>
+      <Text>                 </Text>
+      
+      <Text style={{
+        color: '#FDFCFE',
+        fontSize: 24,
+        fontWeight: 'bold',
+        marginTop: 1
+        }}>   
+        GlicOn   
+      </Text>
+      
+      <Text>                 </Text>
+    </View>
   )
 }
