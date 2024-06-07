@@ -9,8 +9,14 @@ export const styles = StyleSheet.create({
   
     eventName: {
       color: '#FDFCFE',
-      fontSize: 24,
-      fontWeight: 'bold',
-      marginTop: 1
+      fontSize: 30,
+      fontWeight: 'condensed',
+      marginTop: 210
+    },
+
+    input: {
+      height: 56,
+      backgroundColor: '#FDFCFE',
+      borderRadius: 5
     }
   });
