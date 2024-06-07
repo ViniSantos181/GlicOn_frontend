@@ -11,12 +11,20 @@ export const styles = StyleSheet.create({
       color: '#FDFCFE',
       fontSize: 30,
       fontWeight: 'condensed',
-      marginTop: 210
+      marginTop: 120
     },
 
     input: {
-      height: 56,
+      width: 364,
+      height: 52,
       backgroundColor: '#FDFCFE',
-      borderRadius: 5
+      borderRadius: 5,
+      color: '#000000',
+      padding: 16, 
+      fontSize: 18,
+    },
+
+    space: {
+      fontSize: 9
     }
   });
