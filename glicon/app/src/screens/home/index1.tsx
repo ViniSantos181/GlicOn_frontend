@@ -1,41 +1,78 @@
-import { Text, View, TextInput } from 'react-native';
+import { Text, View, TextInput, TouchableOpacity } from 'react-native';
 
 import { styles } from './styles';
 
-export default function Home(){
+export default function RegisterPage(){
+  
+  
+  function handleRegister(){
+    console.log("fazer o registro")
+  }
+
+  function handleLoginPage(){
+    console.log("ir para a pagina de login")
+  }
+  
   return(
     <View style = {styles.container}>
      
       <Text style={styles.eventName}>   
         Registre-se  
       </Text>
+      
       <Text style={styles.space}/>
+      
       <TextInput 
         style={styles.input}
         placeholder="Nome"
         placeholderTextColor="#CDCDCD"
       />
+      
       <Text style={styles.space}/>
+      
       <TextInput 
         style={styles.input}
         placeholder="E-mail"
         placeholderTextColor="#CDCDCD"
         keyboardType="email-address"
       />
+      
       <Text style={styles.space}/>
+      
       <TextInput 
         style={styles.input}
         placeholder="Senha"
         placeholderTextColor="#CDCDCD"
       />
+      
       <Text style={styles.space}/>
+      
       <TextInput 
         style={styles.input}
         placeholder="Confirme a senha"
         placeholderTextColor="#CDCDCD"
       />
-      
-      
+
+      <Text style={styles.space}/>
+
+      <TouchableOpacity style={styles.button} onPress={handleRegister}>
+        <Text style={styles.buttonText}>
+          Registrar
+        </Text>
+      </TouchableOpacity>
+
+      <View style={styles.form}>
+        <Text style={styles.button2}>   
+          Já possui conta? 
+        </Text>
+
+        <TouchableOpacity onPress={handleLoginPage}>
+          <Text style={styles.buttonText2}>
+            Faça Login
+          </Text>
+        </TouchableOpacity>
+      </View>
+
     </View>
   )
 }
