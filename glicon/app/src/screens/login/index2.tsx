@@ -23,8 +23,6 @@ export function LoginPage(){
       <Text style={styles.eventName}>   
         Login  
       </Text>
-      {/* espaço entre os textos/entradas de dado/botões */}
-      <Text style={styles.space}/>
       {/* entradas de texto */}
       <TextInput 
         style={styles.input}
@@ -33,15 +31,11 @@ export function LoginPage(){
         keyboardType="email-address"
       />
       
-      <Text style={styles.space}/>
-      
       <TextInput 
         style={styles.input}
         placeholder="Senha"
         placeholderTextColor="#CDCDCD"
       />
-    
-      <Text style={styles.space}/>
       {/* botão para entrar */}
       <TouchableOpacity style={styles.button} onPress={handleLogin}>
         <Text style={styles.buttonText}>

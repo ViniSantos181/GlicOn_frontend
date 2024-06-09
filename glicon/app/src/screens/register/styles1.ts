@@ -12,7 +12,8 @@ export const styles = StyleSheet.create({
       color: '#FDFCFE',
       fontSize: 30,
       fontWeight: 'bold',
-      marginTop: 120
+      marginTop: 120,
+      marginBottom: 10
     },
     /* estilização das entradas de texto */
     input: {
@@ -23,10 +24,7 @@ export const styles = StyleSheet.create({
       color: '#000000',
       padding: 16, 
       fontSize: 14,
-    },
-    /* estilização do espaçamento */
-    space: {
-      fontSize: 9
+      marginBottom: 10
     },
     /* estilização do botão "registrar" */
     buttonText: {
@@ -41,7 +39,8 @@ export const styles = StyleSheet.create({
       borderRadius: 5,
       backgroundColor: '#322285',
       alignItems: 'center',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      marginBottom: 10
     },
     /* estilização da frase antes do botão de ir para a página de login */
     button2: {
@@ -61,7 +60,8 @@ export const styles = StyleSheet.create({
       width:'100%',
       flexDirection: 'row',
       justifyContent: 'center',
-      marginTop: 5
+      marginTop: 5,
+      marginBottom: 10
     }
 
   });

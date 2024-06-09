@@ -23,8 +23,6 @@ export function RegisterPage(){
       <Text style={styles.eventName}>   
         Registre-se  
       </Text>
-      {/* espaço entre os textos/entradas de dado/botões */}
-      <Text style={styles.space}/>
       {/* entradas de texto */}
       <TextInput 
         style={styles.input}
@@ -32,32 +30,24 @@ export function RegisterPage(){
         placeholderTextColor="#CDCDCD"
       />
       
-      <Text style={styles.space}/>
-      
       <TextInput 
         style={styles.input}
         placeholder="E-mail"
         placeholderTextColor="#CDCDCD"
         keyboardType="email-address"
       />
-      
-      <Text style={styles.space}/>
-      
+
       <TextInput 
         style={styles.input}
         placeholder="Senha"
         placeholderTextColor="#CDCDCD"
       />
       
-      <Text style={styles.space}/>
-      
       <TextInput 
         style={styles.input}
         placeholder="Confirme a senha"
         placeholderTextColor="#CDCDCD"
       />
-
-      <Text style={styles.space}/>
       {/* botão para registar */}
       <TouchableOpacity style={styles.button} onPress={handleRegister}>
         <Text style={styles.buttonText}>
