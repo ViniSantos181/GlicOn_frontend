@@ -1,8 +1,9 @@
 import { Text, View, TextInput, TouchableOpacity } from 'react-native';
 
-import { styles } from './styles';
+import { styles } from './styles1';
+import { LoginPage } from '../login/index2';
 
-export default function RegisterPage(){
+export function RegisterPage(){
   
   /* função para fazer o registro */
   function handleRegister(){
@@ -10,7 +11,9 @@ export default function RegisterPage(){
   }
   /* função que direciona para a página de login */
   function handleLoginPage(){
-    console.log("ir para a pagina de login")
+    return(
+      console.log("direcionar para a pagina de login")
+    );
   }
   
   return(

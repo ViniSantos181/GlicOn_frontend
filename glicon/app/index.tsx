@@ -1,7 +1,8 @@
-import Home from "./src/screens/home/index1"
+import { LoginPage } from "./src/screens/login/index2";
+import { RegisterPage } from "./src/screens/register/index1"
 
 export default function App(){
   return(
-    <Home />
+    <LoginPage/>
   );
 }
