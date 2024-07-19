@@ -1,7 +1,7 @@
 import { Text, View, TextInput, TouchableOpacity } from 'react-native';
 
-import { styles } from './styles1';
-import { LoginPage } from '../login/index2';
+import { styles } from './styles';
+import { LoginPage } from '../login';
 
 export function RegisterPage(){
   

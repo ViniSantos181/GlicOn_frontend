@@ -1,7 +1,8 @@
-import { RegisterPage } from '../register/index1';
+import { RegisterPage } from '../register';
 import { Text, View, TextInput, TouchableOpacity } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
-import { styles } from './styles2';
+import { styles } from './styles';
 
 export function LoginPage(){
   
@@ -55,7 +56,7 @@ export function LoginPage(){
           </Text>
         </TouchableOpacity>
       </View>
-
+      <StatusBar style="auto" />;
     </View>
   )
 }
