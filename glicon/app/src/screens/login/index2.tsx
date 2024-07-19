@@ -17,6 +17,7 @@ export function LoginPage(){
   }
   
   return(
+    
     <View style = {styles.container}>
      
      {/* saída de texto */}

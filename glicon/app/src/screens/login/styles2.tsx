@@ -5,7 +5,8 @@ export const styles = StyleSheet.create({
     container: {
       flex: 1,
       backgroundColor: '#4C33CC',
-      padding: 24
+      padding: 24,
+      alignItems: 'center'
     },
     /* estilização da saída de texto "registrar-se" */
     eventName: {
@@ -13,7 +14,8 @@ export const styles = StyleSheet.create({
       fontSize: 30,
       fontWeight: 'bold',
       marginTop: 170,
-      marginBottom: 10
+      marginBottom: 10,
+      alignSelf: 'flex-start'
     },
     /* estilização das entradas de texto */
     input: {
@@ -24,7 +26,8 @@ export const styles = StyleSheet.create({
       color: '#000000',
       padding: 16, 
       fontSize: 14,
-      marginBottom: 10
+      marginBottom: 10,
+      
     },
     /* estilização do botão "registrar" */
     buttonText: {
